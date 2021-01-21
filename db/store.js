@@ -19,7 +19,6 @@ class Store {
     getNotes() {
         return this.read().then((notes) => {
             let parsedNotes;
-
             try {
                 parsedNotes = [].concat(JSON.parse(notes));
             } catch (err) {
