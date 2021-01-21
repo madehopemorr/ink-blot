@@ -1,0 +1,24 @@
+{
+  "name": "ink-blot",
+  "version": "1.0.0",
+  "description": "## Description ink-blot is an application that can be used to write, save, and delete notes. This application will use an express backend and save and retrieve note data from a JSON file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madehopemorr/ink-blot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/madehopemorr/ink-blot/issues"
+  },
+  "homepage": "https://github.com/madehopemorr/ink-blot#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuid": "^8.3.2"
+  }
+}
