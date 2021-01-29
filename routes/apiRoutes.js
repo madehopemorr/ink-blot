@@ -5,7 +5,7 @@ router.get("/notes", (req, res) => {
     console.log("get routes")
     store
         .getNotes()
-        .then((notes) => res.json(note))
+        .then((notes) => res.json(notes))
         .catch((err) => res.status(500).json(err));
 });
 
